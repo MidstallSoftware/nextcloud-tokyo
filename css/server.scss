@@ -1,0 +1,5 @@
+@import "color.scss";
+
+.apps-list .section:hover {
+	background-color: var(--color-background-darker);
+}

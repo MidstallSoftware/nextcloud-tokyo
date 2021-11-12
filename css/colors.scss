@@ -1,0 +1,21 @@
+:root {
+	--color-night-primary: #1a1b26;
+	--color-night-secondary: #414868;
+	--color-night-text: #a9b1d6;
+	--color-night-active: #565f89;
+
+	--color-storm: #24283b;
+
+	--color-main-text: var(--color-night-text) !important;
+	--color-main-background: var(--color-night-primary) !important;
+	--color-main-background-translucent: var(--color-main-background) !important;
+
+	--color-background-hover: var(--color-night-secondary) !important;
+	--color-background-dark: var(--color-main-background) !important;
+	--color-background-darker: var(--color-storm) !important;
+
+	--color-primary: var(--color-night-primary) !important;
+	--color-primary-light: var(--color-primary) !important;
+	--color-primary-text: var(--color-night-text) !important;
+	--color-primary-text-dark: var(--color-main-text) !important;
+}
