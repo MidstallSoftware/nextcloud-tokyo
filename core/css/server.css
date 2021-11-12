@@ -18,4 +18,19 @@
 	--color-primary-light: var(--color-primary) !important;
 	--color-primary-text: var(--color-night-text) !important;
 	--color-primary-text-dark: var(--color-main-text) !important;
+	--color-primary-element: var(--color-primary) !important;
+	--color-primary-element-light: var(--color-primary) !important;
+
+	--color-error: #f7768e !important;
+	--color-warning: #ff9e64 !important;
+	--color-neutral: #e0af68 !important;
+	--color-success: #2ac3de !important;
+}
+
+.apps-list .section:hover {
+	background-color: var(--color-background-darker);
+}
+
+.selected {
+  background-color: var(--color-background-hover) !important;
 }
