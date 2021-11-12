@@ -25,12 +25,31 @@
 	--color-warning: #ff9e64 !important;
 	--color-neutral: #e0af68 !important;
 	--color-success: #2ac3de !important;
+
+	--color-text-maxconstrast: #cfc9c2 !important;
+	--color-text-light: var(--color-main-text) !important;
+	--color-text-lighter: var(--color-text-maxcontrast) !important;
+	--color-text-dark: var(--color-night-primary) !important;
+	--color-text-selection: var(--color-background-hover) !important;
+	--color-text-link: #7aa2f7 !important;
+
+	--color-loading-light: #cfc9c2 !important;
+	--color-loading-dark: var(--color-storm) !important;
+
+	--color-box-shadow: rgba(0, 0, 0, 0) !important;
+
+	--color-border: var(--color-primary) !important;
+	--color-border-dark: var(--color-border) !important;
+
+	--color-icon: #9aa5ce !important;
 }
 
 .apps-list .section:hover {
 	background-color: var(--color-background-darker);
+	color: var(--color-secondary) !important;
 }
 
 .selected {
-  background-color: var(--color-background-hover) !important;
+	background-color: var(--color-background-hover) !important;
+	color: var(--color-primary) !important;
 }
